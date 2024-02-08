@@ -1,1 +1,29 @@
-THINK before you code...
+import decimal format
+package types = {green, blue, purple}
+do
+    1. ask user for package type
+    2. get input
+    3. lower package = package.lower
+    4. package valid is true if input equals a package type
+    5. if package valid = false
+        a. output invalid package type
+while package valid is not true
+
+ask the user how much gbs of data they used
+if user has green package
+    1. if they used more than 2 gbs
+        a. add 15*gbamount to bill cost
+    2.add 49.99 to bill cost
+    3. if the users bill is over 75
+        a. ask the user if they have a coupon
+        b. if they have a coupon
+            i. bill = bill - 20
+
+otherwise if the user has blue package
+    1. if they used more than 4 gbs
+        a. add 10*gbamount to bill cost
+        b. add 70 to bill cost
+otherwise if user has purple package
+    1. add 99.95 to bill cost
+output total bill cost
+

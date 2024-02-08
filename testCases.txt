@@ -1,1 +1,6 @@
-Test cases go here. 
+Input:            Output:
+green,5,Y         $104.99
+purple,1          $99.95
+green,1           $49.99
+the,green,4,N     Invalid Package Type, $109.99
+blue,5            $120.00
